@@ -1,7 +1,7 @@
 const { GenericContainer, Wait } = require('testcontainers');
 const index = require('./index');
 
-const timeout = 5 * 60 * 1000;
+const timeout = 60 * 60 * 1000;
 
 const containerLogPrefix = 'postgres-container>>> ';
 
